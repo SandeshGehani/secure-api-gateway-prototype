@@ -7,6 +7,8 @@ A lightweight, developer-friendly secure API gateway built with Python and FastA
 Client Request -> [ FastAPI Gateway ] -> [ Validation Chain ] -> [ Mock Backend ]
 
 **Validation Chain:** CORS -> Rate Limiter (100 req/min) -> JWT Auth & RBAC -> Pydantic Schema Validator -> Structured JSON Logger
+<img width="6954" height="1149" alt="mermaid-1776194590265" src="https://github.com/user-attachments/assets/3d6922a2-ce68-422a-a77f-d19a10785838" />
+
 
 ## Features
 - **JWT Authentication**: Validates `Authorization: Bearer <token>`, signatures, expiry, and basic roles.
